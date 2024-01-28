@@ -1,0 +1,30 @@
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: rgb(172, 172, 172);
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+
+.pokemon-type{
+    display:flex;
+    justify-content: space-around
+
+}
+
+.images-types{
+    display:flex;
+    justify-content:space-around
+}
+
+footer{
+    background-color: grey;
+    text-align: center;
+
+}
