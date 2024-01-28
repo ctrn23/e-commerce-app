@@ -1,3 +1,8 @@
+body{
+    background-image: url("images/background-field.png");
+    margin: 0;
+    
+}
 a {
     text-decoration: none;
 }
@@ -12,19 +17,26 @@ a {
     align-items: center;
 }
 
+.images-types {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+}
 .pokemon-type{
-    display:flex;
-    justify-content: space-around
+    border:1px solid black;
+    background-color: grey;
+    transition: transform .2s;
+
 
 }
-
-.images-types{
-    display:flex;
-    justify-content:space-around
+.pokemon-type:hover{
+    transform:scale(1.1);
 }
-
-footer{
+ footer{
     background-color: grey;
     text-align: center;
-
+    position:fixed;
+    bottom:0;
+    width:100%;
 }
