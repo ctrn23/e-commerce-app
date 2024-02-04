@@ -7,6 +7,15 @@ a {
     text-decoration: none;
 }
 
+main{
+    width:100%;
+}
+
+.sign-in{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
 .navbar {
     background-color: rgb(172, 172, 172);
     font-size: 18px;
@@ -25,16 +34,26 @@ a {
 }
 .pokemon-type{
     transition: transform .2s;
-    background-color: rgb(255, 255, 255 ,0.5);
+    background-color: rgb(255, 255, 255 ,0.7);
+    color: black;
     border-radius: 15px;
     text-align: center;
-
+    font-weight: bold;
 }
 .pokemon-type:hover{
     transform:scale(1.1);
 }
+
+.pokemon-type a{
+    color:black;
+}
+
+.pokemon-type a:active{
+    color: blue;
+}
+
  footer{
-    background-color: grey;
+    background-color: rgb(152, 197, 255);
     text-align: center;
     position:fixed;
     bottom:0;
