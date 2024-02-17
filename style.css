@@ -48,8 +48,9 @@ a {
 .pokemon-type a:active {
     color: blue;
 }
-.navbar .burger-icon{
-    display:none ;
+
+.navbar .burger-icon {
+    display: none;
 }
 
 footer {
@@ -62,15 +63,15 @@ footer {
 
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-
-    /* and (-webkit-min-device-pixel-ratio: 2) { */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
     body {
-        border: 3px solid black;
+        /* border: 3px solid black; */
         background-attachment: fixed;
     }
-    .navbar .burger-icon{
-        display:initial;
+
+    .navbar .burger-icon {
+        display: initial;
+        padding: 25px;
     }
 
     .images-types {
@@ -78,11 +79,29 @@ footer {
         flex-wrap: wrap;
         gap: 20px;
     }
-    .navbar-left{
-        visibility: hidden;
-    }
-    #search{
-        visibility:visible;
 
+    #home {
+        padding: -20px;
+    }
+
+    #pokemon {
+        display: none;
+    }
+
+    #trainers {
+        display: none;
+    }
+
+    .navbar {
+        height: 75px;
+    }
+
+    #search {
+        display: block;
+        width: 125px;
+    }
+
+    #sign {
+        font-size: 15px;
     }
 }
