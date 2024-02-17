@@ -3,10 +3,12 @@ body {
     margin: 0;
 
 }
+
 a {
     text-decoration: none;
     color: black;
 }
+
 .navbar {
     background-color: rgb(172, 172, 172);
     font-size: 18px;
@@ -16,18 +18,21 @@ a {
     display: flex;
     align-items: center;
 }
-.navbar-left{
+
+.navbar-left {
     width: 45vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .images-types {
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 80vh;
 }
+
 .pokemon-type {
     transition: transform .2s;
     background-color: rgb(255, 255, 255, 0.7);
@@ -35,31 +40,49 @@ a {
     text-align: center;
     font-weight: bold;
 }
+
 .pokemon-type:hover {
     transform: scale(1.1);
 }
+
 .pokemon-type a:active {
     color: blue;
 }
+.navbar .burger-icon{
+    display:none ;
+}
+
 footer {
     background-color: rgb(152, 197, 255);
     text-align: center;
     position: fixed;
     bottom: 0;
     width: 100%;
+    padding: 10px;
+
 }
 
-@media only screen 
-  and (min-device-width: 320px) {
-  and (max-device-width: 480px)
-  /* and (-webkit-min-device-pixel-ratio: 2) { */
-body{
-    border:3px solid black;
-    background-attachment:fixed;
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+    /* and (-webkit-min-device-pixel-ratio: 2) { */
+    body {
+        border: 3px solid black;
+        background-attachment: fixed;
+    }
+    .navbar .burger-icon{
+        display:initial;
+    }
+
+    .images-types {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .navbar-left{
+        visibility: hidden;
+    }
+    #search{
+        visibility:visible;
+
+    }
 }
-.images-types{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-  }
