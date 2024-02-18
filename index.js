@@ -1,0 +1,1 @@
+function notify() {alert("No pokemon has appeared!")}   
