@@ -8,22 +8,28 @@
     <link rel="shortcut icon" href="../images/pokeball-logo.png">
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 </head>
 
 <body>
     <header>
         <nav class="navbar">
-            <a href="../index.html" id="home"><img src="../images/pokemon-store-logo150x150.png" width="80px"
-                    height="80px"></a>
-            <a href="../pokemon/index.html" id="pokemon">Pokemon</a>
-            <a href="../trainers/index.html" id="trainers">Trainers</a>
-            <input type="search" placeholder="Search for pokemon">
-            <a href="../sign/index.html" id="sign"> Sign in / Sign up </a>
+            <a href="#"><i class="fas fa-bars burger-icon"></i></a>
+            <div class="navbar-left">
+                <a href="../index.html" id="home"><img src="../images/pokemon-store-logo150x150.png" alt="logo pokemon store" width="80px"></a>
+                <a href="../pokemon/index.html" id="pokemon">Pokemon</a>
+                <a href="../trainers/index.html" id="trainers">Trainers</a>    
+                <input type="search" id="search" placeholder="Search pokemon">
+            </div>
+            <div class="navbar-right">
+                <a href="#"><i class="fas fa-bell" onclick="notify()"></i></a>
+                <a href="../sign/index.html" id="sign"> Log in/Sign up </a>
+            </div>
         </nav>
     </header>
     <main>
         <div class="sign-in">
-            <form method="post" action="">
+            <form method="post" action="" id="background_form">
                 <img src="../images/pokeball-logo.png" width="150" height="150">
                 <label for="username">
                     <p>Username:</p>
@@ -33,6 +39,7 @@
                     <p>Password:</p>
                 </label>
                 <input id="password" type="password" placeholder="Enter Password" name="pass" required>
+                <button type="submit" class="button_submit">Sign in</button>
             </form>
         </div>
 
@@ -42,6 +49,7 @@
     <footer>
         Made by Cherry
     </footer>
+    <script src="../index.js"></script>
 </body>
 
 </html>

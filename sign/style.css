@@ -9,4 +9,12 @@ main{
     display: flex;
     justify-content: center;
 }
+p{
+    color: white;
+}
 
+.button_submit{
+    display:flex;
+    margin-top:13px;
+
+}
