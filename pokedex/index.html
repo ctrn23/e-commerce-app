@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon store</title>
+    <link rel="shortcut icon" href="../images/pokeball-logo.png">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#"><i class="fas fa-bars burger-icon"></i></a>
+            <div class="navbar-left">
+                <a href="../index.html" id="home"><img src="../images/pokemon-store-logo150x150.png"
+                        alt="logo pokemon store" width="80px"></a>
+                <a href="../pokedex/index.html" id="pokedex">Pokedex</a>
+                <a href="../trainers/index.html" id="trainers">Trainers</a>
+                <input type="search" id="search" placeholder="Search pokemon">
+            </div>
+            <div class="navbar-right">
+                <a href="#"><i class="fas fa-bell" onclick="notify()"></i></a>
+                <a href="../sign/index.html" id="sign"> Log in/Sign up </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="pokemon_container">
+            <div class='pokemon_box'>
+                <img src="../images/bulbasaur300.png" alt="image of Bulbasaur">
+                <p class="pokemon_name">BULBASAUR</p>
+                <p>Bulbasaur can be seen napping in bright sunlight.There is a seed on its back.By soaking up the sun's
+                    rays, the seed grows progressively larger</p>
+                <p class="details"><span class="type">GRASS/POISON</span> <span class="region">Kanto region</span></p>
+                <button class="evolve">EVOLVE</button>
+                <button class="choose">CATCH</button>
+            </div>
+            <div class='pokemon_box'>
+                <img src="../images/charmander300.png" alt="image of Charmander">
+                <p class="pokemon_name">CHARMANDER</p>
+                <p>The flame that burns at the tip of its tail is an indication of its emotion.The flame wavers when
+                    Charmander is enjoying itself.If the Pokemon becomes engaged, the flame burns fiercely.</p>
+                <p class="details"><span class="type">FIRE</span> <span class="region">Kanto region</span></p>
+                <button class="evolve">EVOLVE</button>
+                <button class="choose">CATCH</button>
+            </div>
+            <div class='pokemon_box'>
+                <img src="../images/squirtle300.png" alt="image of Squirtle">
+                <p class="pokemon_name">SQUIRTLE</p>
+                <p>Squirtle's shell i not merely used for protection. The shell's rounded shape and the grooves on its
+                    surface help minimize resistance in water, enabling this Pokemon to wim at the high speeds.</p>
+                <p class="details"><span class="type">WATER</span> <span class="region">Kanto region</span></p>
+                <button class="evolve">EVOLVE</button>
+                <button class="choose">CATCH</button>
+            </div>
+            <div class='pokemon_box'>
+                <img src="../images/carerpie.png" alt="image of Caterpie">
+                <p class="pokemon_name">CATERPIE</p>
+                <p>Caterpie has a voracious appetite. IT can devour leaves bigger than its body right before your eyes. From its antenna, this Pokemon releases a terrifically strong odor.</p>
+                <p class="details"><span class="type">BUG</span> <span class="region">Kanto region</span></p>
+                <button class="evolve">EVOLVE</button>
+                <button class="choose">CATCH</button>
+            </div>
+            <div class='pokemon_box'>
+                <img src="../images/chikorita.png" alt="image of Chikorita">
+                <p class="pokemon_name">CHIKORITA</p>
+                <p>In battle, Chikorita waves its leaf around to keep the foe at bay. However, a sweet fragrance also wafts from the leaf, becalming the battling Pokémon and creating a cozy, friendly atmosphere all around</p>
+                <p class="details"><span class="type">GRASS</span> <span class="region">Johto region</span></p>
+                <button class="evolve">EVOLVE</button>
+                <button class="choose">CATCH</button>
+            </div>
+            <div class='pokemon_box'>
+                <img src="../images/cyndaquil.png" alt="image of Cyndaquil">
+                <p class="pokemon_name">CYNDAQUIL</p>
+                <p>Cyndaquil protects itself by flaring up the flames on its back. The flames are vigorous if the Pokémon is angry. However, if it is tired, the flames splutter fitfully with incomplete combustion.</p>
+                <p class="details"><span class="type">FIRE</span> <span class="region">Johto region</span></p>
+                <button class="evolve">EVOLVE</button>
+                <button class="choose">CATCH</button>
+            </div>
+            <div class='pokemon_box'>
+                <img src="../images/onix.png" alt="image of Onix">
+                <p class="pokemon_name">ONIX</p>
+                <p>Onix has a magnet in its brain. It acts as a compass so that this Pokémon does not lose direction while it is tunneling. As it grows older, its body becomes increasingly rounder and smoother.</p>
+                <p class="details"><span class="type">ROCK/GROUND</span> <span class="region">Kanto region</span></p>
+                <button class="evolve">EVOLVE</button>
+                <button class="choose">CATCH</button>
+            </div>
+            <div class='pokemon_box'>
+                <img src="../images/pichu.png" alt="image of pichu">
+                <p class="pokemon_name">PICHU</p>
+                <p>Pichu charges itself with electricity more easily on days with thunderclouds or when the air is very dry. You can hear the crackling of static electricity coming off this Pokémon</p>
+                <p class="details"><span class="type">ELECTRIC</span> <span class="region">Johto region</span></p>
+                <button class="evolve">EVOLVE</button>
+                <button class="choose">CATCH</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        Made by Cherry
+    </footer>
+    <script src="../index.js"></script>
+</body>
+
+</html>

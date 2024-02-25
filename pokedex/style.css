@@ -1,0 +1,41 @@
+
+.pokemon_container {
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+
+}
+
+.pokemon_box {
+    background-color: rgb(255, 255, 255, 0.7);
+    border-radius: 15px;
+    height: 520px;
+    width: 370px;
+    border: 1px solid black;
+    text-align: center;
+    margin:10px;
+}
+.pokemon_name{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.details{
+    display:flex;
+    justify-content: space-evenly;
+}
+.type{
+    background-color: rgb(243, 243, 147);
+    border: 1px solid rgb(224, 224, 16);
+    border-radius: 10px;
+    padding:0px 10px;
+}
+.region{
+    font-style: italic;
+}
